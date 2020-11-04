@@ -13,10 +13,10 @@ submit.addEventListener('click', function(event) {
     event.preventDefault();
     
     let personData = {
-      fname: fName.value,
-      lname: lName.value,
+      firstname: fName.value,
+      lastname: lName.value,
       email: email.value,
-      bday: birthDay.value,
+      birthday: birthDay.value,
       message: message.value,
       hischool: hiSchool.checked,
       bachelor: bachelor.checked,
