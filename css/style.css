@@ -88,6 +88,44 @@ button:hover {
   background: #2371a0;
 }
 
+.radio-btns {
+  display: flex;
+  align-items: center;
+}
+.radio-btn {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.radio-btn p {
+  padding-left: 10px;
+}
+
+.radio-btn-1 p {
+  display: flex;
+  width: 100%;
+}
+
+.radio-btn-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 25%;
+  margin: 0;
+  justify-content: space-between;
+}
+
+#one, #two, #three, #four {
+  display: block;
+  margin: 0;
+  width: 13px;
+}
+.msg {
+  margin-top: 10px;
+}
+
 @media (min-width: 568px) {
   .main-block {
     flex-direction: row;
