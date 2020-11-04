@@ -91,6 +91,7 @@ button:hover {
 .radio-btns {
   display: flex;
   align-items: center;
+  color: rgb(155, 155, 155);
 }
 .radio-btn {
   display: flex;
