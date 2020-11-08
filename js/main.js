@@ -3,13 +3,13 @@ let fName = document.querySelector('.fname'),
     email = document.querySelector('.email'),
     birthDay = document.querySelector('.date'),
     message = document.querySelector('.message'),
-    hiSchool = document.querySelector('#one'),
-    bachelor = document.querySelector('#two'),
-    master = document.querySelector('#three'),
-    doctor = document.querySelector('#four'),
+    hiSchool = document.getElementById('one'),
+    bachelor = document.getElementById('two'),
+    master = document.getElementById('three'),
+    doctor = document.getElementById('four'),
     submit = document.querySelector('.submit');
 
-submit.addEventListener('click', function(event) {
+submit.addEventListener('click', (event) => {
     event.preventDefault();
     
     let personData = {
